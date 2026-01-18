@@ -1,7 +1,7 @@
 .contact-page {
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   padding: 6rem 1rem 2rem;
 }
@@ -9,7 +9,8 @@
 .contact-card {
   max-width: 600px;
   width: 100%;
-  background: rgba(0, 0, 0, 0.45);
+  background-color: rgba(100, 0, 130, 0.25);
+  backdrop-filter: blur(2px);
   border: 1px solid rgba(255, 255, 255, 0.12);
   padding: 2rem;
   border-radius: 12px;
