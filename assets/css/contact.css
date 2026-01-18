@@ -39,9 +39,10 @@
   color: var(--text-color);
   text-decoration: none;
   font-weight: bold;
+  transition: opacity 0.3s ease, filter 0.3s ease;
 }
 
 .contact-list a:hover {
   opacity: 0.5;
-  filter: brightness(1.25);
+  filter: brightness(0.75);
 }
