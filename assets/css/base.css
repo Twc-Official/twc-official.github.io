@@ -1,10 +1,11 @@
-:root { /* If you're reading this, go away.*/
+:root { /* If you're reading this, go away. */
   --text-color: #ae00d2;
   /* --bg-image: url('/assets/images/placeholder.png'); */
 }
 
 html, body {
   height: 100%;
+  margin: 0;
 }
 
 @keyframes drift {
@@ -21,27 +22,29 @@ body {
   background-image: url('/assets/images/placeholder.png');
   background-repeat: repeat;
   background-size: auto 25px;
-  animation: drift 60s linear infinite;
+  animation: drift 30s linear infinite;
+
   color: var(--text-color);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #000;
+
   background-color: rgba(90, 0, 120, 0.1);
   backdrop-filter: blur(6px);
+
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   padding: 0.75rem 1.25rem;
   box-sizing: border-box;
   z-index: 1000;
 }
-
 
 nav {
   display: flex;
@@ -65,7 +68,6 @@ nav a:hover {
   justify-content: flex-end;
   max-width: 50%;
 }
-
 
 .social img {
   width: 1.5rem;
