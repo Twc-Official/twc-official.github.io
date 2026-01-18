@@ -23,7 +23,8 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #000; /* I may make this translucent in the future. Also, why are you reading this */
+  background-color: #000;
+  backdrop-filter: blur(6px); /* Testing this */
   display: flex;
   align-items: center;
   justify-content: space-between;
