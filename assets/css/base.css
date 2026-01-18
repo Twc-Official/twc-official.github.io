@@ -48,10 +48,14 @@ nav a:hover {
 
 .social {
   display: flex;
-  gap: 10px;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  max-width: 40%;
 }
 
+
 .social img {
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
 }
+
