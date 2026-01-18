@@ -23,7 +23,6 @@ body {
   background-repeat: repeat;
   background-size: auto 25px;
   animation: drift 30s linear infinite;
-
   color: var(--text-color);
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -33,14 +32,11 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-
-  background-color: rgba(90, 0, 120, 0.1);
-  backdrop-filter: blur(6px);
-
+  background-color: rgba(100, 0, 130, 0.25);
+  backdrop-filter: blur(2px);
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   padding: 0.75rem 1.25rem;
   box-sizing: border-box;
   z-index: 1000;
