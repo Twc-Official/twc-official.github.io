@@ -24,6 +24,7 @@ body {
   background-size: auto 25px;
 
   animation: drift 60s linear infinite;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
