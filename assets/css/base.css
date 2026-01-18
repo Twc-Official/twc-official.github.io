@@ -24,7 +24,7 @@ header {
   left: 0;
   width: 100%;
   background-color: #000;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(6px); /* Testing this */
   display: flex;
   align-items: center;
