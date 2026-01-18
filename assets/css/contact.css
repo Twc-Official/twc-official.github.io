@@ -1,0 +1,45 @@
+.contact-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 1rem 2rem;
+}
+
+.contact-card {
+  max-width: 600px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.contact-card h1 {
+  margin: 0 0 0.5rem;
+}
+
+.contact-card p {
+  margin: 0 0 1.5rem;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  margin: 0.5rem 0;
+}
+
+.contact-list a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-list a:hover {
+  opacity: 0.8;
+}
