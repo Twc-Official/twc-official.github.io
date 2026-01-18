@@ -18,6 +18,8 @@ html, body {
 
 body {
   background-color: #000;
+  margin: 0;
+  padding-top: 4.5rem;
   background-image: url('/assets/images/placeholder.png');
   background-repeat: repeat;
   background-size: auto 25px;
@@ -31,16 +33,14 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #000;
   background-color: rgba(90, 0, 120, 0.1);
+  -webkit-backdrop-filter: blur(6px);
   backdrop-filter: blur(6px);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 0.75rem 1.25rem;
   box-sizing: border-box;
   z-index: 1000;
 }
+
 
 
 nav {
