@@ -56,8 +56,8 @@ nav a {
 }
 
 nav a:hover {
-  opacity: 0.8;
-  filter: brightness(0.75);
+  opacity: 0.75;
+  filter: brightness(0.25);
 }
 
 .social {
