@@ -1,5 +1,5 @@
 :root { /* If you're reading this, go away. */
-  --text-color: #ae00d2;
+  --text-color: #460186;
   /* --bg-image: url('/assets/images/placeholder.png'); */
 }
 
@@ -32,8 +32,8 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(120, 18, 255, 0.25);
-  border: 0.5rem solid rgb(0 0 0, 0.25);
+  background-color: rgba(60, 0, 105, 0.5);
+  border: 0.5rem solid rgb(0 0 0, 0.5);
   backdrop-filter: blur(2px);
   display: flex;
   align-items: center;
@@ -56,7 +56,7 @@ nav a {
 }
 
 nav a:hover {
-  opacity: 0.5;
+  opacity: 0.8;
   filter: brightness(0.75);
 }
 
@@ -66,7 +66,8 @@ nav a:hover {
   flex-wrap: wrap;
   justify-content: flex-end;
   max-width: 50%;
-  transition: transform 0.3s ease, filter 0.3s ease; /*0.3s as a tribute to my old website. Rip.*/
+  transition: transform 0.3s ease, filter 0.3s ease;
+  /*0.3s as a tribute to my old website. Rip.*/
 }
 
 .social a:hover {
