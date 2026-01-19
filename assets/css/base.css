@@ -19,7 +19,7 @@ html, body {
 
 body {
   background-color: #000;
-  background-image: url('/assets/images/TheBackground.webp');
+  background-image: url('/assets/images/BackgroundTest.webp');
   background-repeat: repeat;
   background-size: auto 25px;
   animation: drift 20s linear infinite;
