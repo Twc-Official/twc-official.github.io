@@ -9,9 +9,9 @@
 .contact-card {
   max-width: 600px;
   width: 100%;
-  background-color: rgba(120, 18, 255, 0.25);
+  background-color: rgba(60, 0, 105, 0.5);
   backdrop-filter: blur(2px);
-  border: 0.5rem solid rgb(0 0 0, 0.25);
+  border: 0.5rem solid rgb(0 0 0, 0.5);
   padding: 2rem;
   border-radius: 12px;
   text-align: center;
@@ -43,6 +43,6 @@
 }
 
 .contact-list a:hover {
-  opacity: 0.5;
+  opacity: 0.8;
   filter: brightness(0.75);
 }
