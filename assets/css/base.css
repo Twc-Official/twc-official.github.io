@@ -32,8 +32,8 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(60, 0, 105, 0.5);
-  border: 0.5rem solid rgb(0 0 0, 0.5);
+  background-color: rgba(60, 0, 105, 0.3);
+  border: 0.25rem solid rgba(55, 0, 100, 0.3);
   backdrop-filter: blur(2px);
   display: flex;
   align-items: center;
@@ -79,4 +79,3 @@ nav a:hover {
   width: 1.5rem;
   height: 1.5rem;
 }
-/* Putting this here so github cancels the old workflow. */
