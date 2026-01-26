@@ -68,7 +68,7 @@ nav a:hover {
   max-width: 50%;
 }
 
-.social a:hover {
+.social a {
   transition: opacity 0.3s ease, filter 0.3s ease;
 }
 
