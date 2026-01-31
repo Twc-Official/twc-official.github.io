@@ -1,4 +1,4 @@
-.content-page {
+.main-page {
   min-height: 100vh;
   display: flex;
   align-items: flex-start;
@@ -6,7 +6,7 @@
   padding: 6rem 1rem 2rem;
 }
 
-.content-page-content {
+.main-page-content {
   max-width: 1200px;
   width: 100%;
   /* background-color: rgba(0, 0, 0, 0);  Testing, ignore. */
@@ -14,10 +14,14 @@
   text-align: center;
 }
 
-.content-page-content h1 {
+.main-page-content h1 {
   margin: 0 0 0.5rem;
 }
 
-.content-page-content p {
+.main-page-content img {
+  margin: 0 0 1rem;
+}
+
+.main-page-content p {
   margin: 0 0 1.5rem;
 }

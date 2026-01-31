@@ -78,3 +78,10 @@ nav a:hover {
   width: 1.5rem;
   height: 1.5rem;
 }
+
+.border-image{
+  border: 0.25rem solid rgba(55 0, 100, 0.3);
+  margin: 2rem auto;
+  width: 15%;
+  border-radius: 5px;
+}
