@@ -9,11 +9,11 @@
 .contact-card {
   max-width: 600px;
   width: 100%;
-  background-color: rgba(60, 0, 105, 0.5);
+  background-color: rgba(60, 0, 105, 0.3);
   backdrop-filter: blur(2px);
-  border: 0.5rem solid rgb(0 0 0, 0.5);
+  border: 0.25rem solid rgba(55 0, 100, 0.3);
   padding: 2rem;
-  border-radius: 12px;
+  border-radius: 15px;
   text-align: center;
 }
 
