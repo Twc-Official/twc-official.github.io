@@ -36,3 +36,15 @@
   opacity: 0.75;
   filter: brightness(0.25);
 }
+
+.game-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.game-images img {
+  width: 160px; /* Alr, I'll test if this looks good later */
+  height: auto;
+}
