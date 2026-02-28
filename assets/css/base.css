@@ -1,4 +1,4 @@
-:root { /* If you're reading this, go away. */
+:root { /* Why are you here */
   --text-color: #6e01d2;
 }
 
@@ -51,7 +51,7 @@ nav a {
   color: var(--text-color);
   text-decoration: none;
   font-weight: bold;
-  transition: opacity 0.3s ease, filter 0.3s ease;
+  transition: opacity 0.25s ease, filter 0.25s ease;
 }
 
 nav a:hover {
@@ -67,15 +67,15 @@ nav a:hover {
   max-width: 50%;
 }
 
-.social a:hover {
-  transform: scale(1.1);
-  filter: brightness(1.25);
-}
-
-
 .social img {
   width: 1.5rem;
   height: 1.5rem;
+  transition: transform .25s, filter .25s
+}
+
+.social img:hover {
+  transform: scale(1.1);
+  filter: brightness(0.98);
 }
 
 .border-image{
