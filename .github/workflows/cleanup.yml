@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions: write-all
     steps:
-      - name: 🗑 Delete GitHub Pages Deployments
+      - name: Delete GitHub Pages Deployments
         uses: strumwolf/delete-deployment-environment@v3
         with:
           token: ${{ secrets.DEPLOY_TOKEN }}
