@@ -13,4 +13,4 @@ jobs:
         with:
           token: ${{ secrets.DEPLOY_TOKEN }}
           environment: github-pages
-          onlyRemoveDeployments: trueCopied!   
+          onlyRemoveDeployments: true  
