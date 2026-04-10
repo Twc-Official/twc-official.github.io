@@ -1,5 +1,6 @@
 :root { /* Why are you here */
   --text-color: #6e01d2;
+  --warning-color: #AC0000;
 }
 
 html, body {
