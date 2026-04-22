@@ -1,6 +1,7 @@
 :root { /* Why are you here */
   --text-color: #6e01d2;
   --warning-color: #AC0000;
+  --site-version: "V: b0.1.0";
 }
 
 html, body {
@@ -37,7 +38,6 @@ header {
   backdrop-filter: blur(2px);
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 0.75rem 1.25rem;
   box-sizing: border-box;
   z-index: 1000;
@@ -46,6 +46,8 @@ header {
 nav {
   display: flex;
   gap: 20px;
+  flex: 1;
+  padding-right: 0.5rem;
 }
 
 nav a {
@@ -65,7 +67,9 @@ nav a:hover {
   gap: 0.5rem;
   flex-wrap: wrap;
   justify-content: flex-end;
-  max-width: 50%;
+  align-items: center;
+  flex: 1;
+  padding-left: 0.5rem;
 }
 
 .social img {
@@ -80,9 +84,37 @@ nav a:hover {
 }
 
 .border-image{
-  border: 0.25rem solid rgba(55 0, 100, 0.3);
+  border: 0.25rem solid rgba(55, 0, 100, 0.3);
   margin: 2rem auto;
   backdrop-filter: blur(2px);
   width: 15%;
   border-radius: 100%;
+}
+
+.site-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  flex-shrink: 0;
+}
+
+.site-title h1 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.version-label {
+  display: block;
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--text-color);
+  opacity: 0.75;
+  padding: 0;
+  margin: 0;
 }
